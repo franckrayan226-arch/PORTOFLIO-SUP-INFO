@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Franck Rayan Bado — Portfolio SUPINFO</title>
+<meta name="description" content="Portfolio de Franck Rayan Bado, etudiant en CPGE MPI, candidat SUPINFO Programme Grande Ecole.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav" id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">FRB<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#accueil" class="active">Accueil</a></li>
+      <li><a href="#apropos">A propos</a></li>
+      <li><a href="#competences">Competences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#formations">Formations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<!-- ======= HERO ======= -->
+<section class="slide hero-slide" id="accueil">
+  <div class="css-badge">CSS</div>
+  <div class="hero-main">
+    <div class="code-window">
+      <div class="window-bar">
+        <div class="window-dots">
+          <div class="dot r"></div>
+          <div class="dot y"></div>
+          <div class="dot g"></div>
+        </div>
+        <div class="window-bar-title">portfolio.js &mdash; Franck Rayan Bado</div>
+      </div>
+      <div class="code-body">
+        <div class="cl"><span class="ln">1</span><span class="lc"><span class="cmt">// Portfolio candidat SUPINFO — Programme Grande Ecole</span></span></div>
+        <div class="cl"><span class="ln">2</span><span class="lc"><span class="cmt">// Specialisation visee : Ingenierie Data &amp; IA</span></span></div>
+        <div class="cl"><span class="ln">3</span><span class="lc"></span></div>
+        <div class="cl"><span class="ln">4</span><span class="lc"><span class="kw">const</span> <span class="fn">identite</span> = {</span></div>
+        <div class="cl"><span class="ln">5</span><span class="lc">&nbsp;&nbsp;nom: <span class="str">"Franck Rayan Bado"</span>,</span></div>
+        <div class="cl"><span class="ln">6</span><span class="lc">&nbsp;&nbsp;formation: <span class="str">"CPGE MPI — 2e annee"</span>,</span></div>
+        <div class="cl"><span class="ln">7</span><span class="lc">&nbsp;&nbsp;localisation: <span class="str">"Burkina Faso"</span>,</span></div>
+        <div class="cl"><span class="ln">8</span><span class="lc">&nbsp;&nbsp;objectif: <span class="str">"Quantitative Engineer"</span></span></div>
+        <div class="cl"><span class="ln">9</span><span class="lc">};</span></div>
+        <div class="cl"><span class="ln">10</span><span class="lc"></span></div>
+        <div class="cl"><span class="ln">11</span><span class="lc"><span class="kw">function</span> <span class="fn">presentation</span>() {</span></div>
+        <div class="cl"><span class="ln">12</span><span class="lc">&nbsp;&nbsp;<span class="kw">return</span> <span class="str">"Passionne par les mathematiques appliquees,"</span></span></div>
+        <div class="cl"><span class="ln">13</span><span class="lc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ <span class="str">"l'informatique et la finance quantitative."</span>;</span></div>
+        <div class="cl"><span class="ln">14</span><span class="lc">}</span></div>
+        <div class="cl"><span class="ln">15</span><span class="lc"></span></div>
+        <div class="cl"><span class="ln">16</span><span class="lc">
+          <span class="hero-name">Franck<br>Rayan <span class="gold">Bado</span></span>
+        </span></div>
+        <div class="cl"><span class="ln">17</span><span class="lc">
+          <span class="hero-sub">Etudiant CPGE MPI &mdash; passionne par les maths appliquees, l'informatique &amp; la finance quantitative.</span>
+        </span></div>
+        <div class="cl"><span class="ln">18</span><span class="lc"></span></div>
+        <div class="cl"><span class="ln">19</span><span class="lc">
+          <div class="hero-meta">
+            <div class="hm-item"><span class="lbl">Formation</span><span class="val">CPGE MPI — 2e annee</span></div>
+            <div class="hm-item"><span class="lbl">Localisation</span><span class="val">Burkina Faso</span></div>
+            <div class="hm-item"><span class="lbl">Objectif</span><span class="val">Quantitative Engineer</span></div>
+          </div>
+        </span></div>
+        <div class="cl"><span class="ln">20</span><span class="lc">
+          <div class="hero-actions">
+            <a href="#apropos" class="btn btn-solid">Consulter le portfolio</a>
+            <a href="#contact" class="btn">Me contacter</a>
+          </div>
+        </span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= ABOUT ======= -->
+<section class="slide" id="apropos">
+  <div class="slide-inner">
+    <div class="slide-header reveal">
+      <span class="slide-num">02 / Biographie</span>
+      <h2>A propos</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal-l">
+        <p>Actuellement etudiant en deuxieme annee de CPGE MPI (Mathematiques, Physique et Informatique) au Burkina Faso, j'ai developpe au travers de cette formation exigeante une solide rigueur scientifique, des capacites d'analyse avancees et une methode de travail autonome et efficace.</p>
+        <p>Parallelement au cursus academique, je consacre du temps a des projets techniques personnels — site e-commerce fullstack, systeme de tri de dechets par vision par ordinateur, outils en C — qui refletent mon engagement concret envers l'informatique. Je tutore egalement mes pairs en mathematiques et en informatique depuis pres d'un an, sur la base du volontariat.</p>
+        <p>Je vise le Programme Grande Ecole de SUPINFO en entree 3e annee, avec une orientation vers la specialisation <strong>Ingenierie Data</strong>. Cette filiere correspond a mon projet de carriere en finance quantitative, ou la maitrise des donnees, des modeles mathematiques et du developpement logiciel sont des competences centrales.</p>
+        <div class="about-highlight">
+          <p>Je suis particulierement passionne par la finance quantitative. J'etudie la maniere dont les mathematiques, l'informatique et l'analyse de donnees peuvent etre combinees pour resoudre des problematiques complexes liees aux marches financiers.</p>
+        </div>
+      </div>
+      <div class="about-sidebar reveal-r">
+        <ul class="info-list">
+          <li><span class="lbl">Nom complet</span><span class="val">Franck Rayan Bado</span></li>
+          <li><span class="lbl">Formation actuelle</span><span class="val">CPGE MPI</span></li>
+          <li><span class="lbl">Localisation</span><span class="val">Burkina Faso</span></li>
+          <li><span class="lbl">Objectif</span><span class="val">Quantitative Engineer</span></li>
+          <li><span class="lbl">Disponibilite</span><span class="val">Immediate</span></li>
+          <li><span class="lbl">Statut</span><span class="val">Candidat SUPINFO PGE 3e</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= COMPETENCES ======= -->
+<section class="slide" id="competences">
+  <div class="slide-inner">
+    <div class="slide-header reveal">
+      <span class="slide-num">03 / Expertise</span>
+      <h2>Competences</h2>
+    </div>
+    <div class="skills-layout">
+
+      <div class="skill-category reveal-l">
+        <h3>Langages &amp; technologies</h3>
+        <div class="skill-list">
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">HTML</span>
+            <span class="skill-gauge"><span class="gauge-name">HTML</span><span class="gauge-track"><span class="gauge-fill" style="--w:70%"></span></span><span class="gauge-pct">70%</span></span>
+          </div>
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">CSS</span>
+            <span class="skill-gauge"><span class="gauge-name">CSS</span><span class="gauge-track"><span class="gauge-fill" style="--w:60%"></span></span><span class="gauge-pct">60%</span></span>
+          </div>
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">JavaScript</span>
+            <span class="skill-gauge"><span class="gauge-name">JavaScript</span><span class="gauge-track"><span class="gauge-fill" style="--w:40%"></span></span><span class="gauge-pct">40%</span></span>
+          </div>
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">Python</span>
+            <span class="skill-gauge"><span class="gauge-name">Python</span><span class="gauge-track"><span class="gauge-fill" style="--w:60%"></span></span><span class="gauge-pct">60%</span></span>
+          </div>
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">OCaml</span>
+            <span class="skill-gauge"><span class="gauge-name">OCaml</span><span class="gauge-track"><span class="gauge-fill" style="--w:55%"></span></span><span class="gauge-pct">55%</span></span>
+          </div>
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">Langage C</span>
+            <span class="skill-gauge"><span class="gauge-name">Langage C</span><span class="gauge-track"><span class="gauge-fill" style="--w:35%"></span></span><span class="gauge-pct">35%</span></span>
+          </div>
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">SQL / MySQL</span>
+            <span class="skill-gauge"><span class="gauge-name">SQL / MySQL</span><span class="gauge-track"><span class="gauge-fill" style="--w:55%"></span></span><span class="gauge-pct">55%</span></span>
+          </div>
+          <div class="skill-item" tabindex="0">
+            <span class="skill-label">Node.js / Express</span>
+            <span class="skill-gauge"><span class="gauge-name">Node.js</span><span class="gauge-track"><span class="gauge-fill" style="--w:40%"></span></span><span class="gauge-pct">40%</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category reveal-r">
+        <h3>Domaines techniques</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Algorithmique</span>
+          <span class="skill-tag">Structures de donnees</span>
+          <span class="skill-tag">Analyse de donnees</span>
+          <span class="skill-tag">Modelisation mathematique</span>
+          <span class="skill-tag">Developpement web fullstack</span>
+          <span class="skill-tag">Vision par ordinateur</span>
+          <span class="skill-tag">Algebre lineaire</span>
+          <span class="skill-tag">Probabilites &amp; statistiques</span>
+          <span class="skill-tag">Methodes numeriques</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal-l">
+        <h3>Outils &amp; environnements</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Visual Studio Code</span>
+          <span class="skill-tag">Git / GitHub</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Scilab</span>
+          <span class="skill-tag">Spyder / Anaconda</span>
+          <span class="skill-tag">Google Colab</span>
+          <span class="skill-tag">Arduino</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal-r">
+        <h3>Competences transversales</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Rigueur analytique</span>
+          <span class="skill-tag">Autonomie</span>
+          <span class="skill-tag">Esprit d'equipe</span>
+          <span class="skill-tag">Gestion du temps</span>
+          <span class="skill-tag">Tutorat &amp; pedagogie</span>
+          <span class="skill-tag">Apprentissage rapide</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= PROJETS ======= -->
+<section class="slide" id="projets">
+  <div class="slide-inner">
+    <div class="slide-header reveal">
+      <span class="slide-num">04 / Realisations</span>
+      <h2>Projets personnels</h2>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <h3>TIPE — Tri intelligent des dechets</h3>
+        <p>Systeme automatise de separation des dechets organiques et compostables par vision par ordinateur. Architecture CNN ResNet-18 pre-entraine sur le dataset TrashNet augmente, integration d'un bras Arduino pour le tri physique en temps reel.</p>
+        <div class="project-tech">
+          <span>Python</span><span>OpenCV</span><span>ResNet-18</span><span>C++</span><span>Arduino</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="transition-delay:.1s">
+        <h3>E-commerce Sneakers-BF</h3>
+        <p>Site de vente fullstack avec CMS integre permettant la modification du catalogue sans intervention sur le code. API REST Node.js/Express, base MySQL, heberge sur Vercel.</p>
+        <div class="project-tech">
+          <span>HTML/CSS/JS</span><span>Node.js</span><span>Express</span><span>MySQL</span>
+        </div>
+        <div class="project-links">
+          <a href="https://sneakers-bf-with-cms.vercel.app/" target="_blank" rel="noopener" class="btn btn-solid">Voir le site</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="transition-delay:.15s">
+        <h3>Portfolio personnel</h3>
+        <p>Portfolio web a page unique avec animations scroll, fenetre code interactive et design ore. Entierement cree en HTML/CSS/JS vanilla sans framework.</p>
+        <div class="project-tech">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>EmailJS</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal" style="transition-delay:.2s">
+        <h3>Calculatrice en C</h3>
+        <p>Calculatrice fonctionnelle en langage C implementant la gestion des entrees utilisateur, les priorites operatoires et la recursivite pour les expressions imbriquees.</p>
+        <div class="project-tech">
+          <span>Langage C</span><span>Algorithmique</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/franckrayan226-arch/CALCULATRICE-EN-C" target="_blank" rel="noopener" class="btn btn-ghost">Code source</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======= FORMATIONS ======= -->
+<section class="slide" id="formations">
+  <div class="slide-inner">
+    <div class="slide-header reveal">
+      <span class="slide-num">05 / Parcours</span>
+      <h2>Formations &amp; experiences</h2>
+    </div>
+    <div class="reveal">
+      <div class="timeline">
+        <div class="tl-item">
+          <span class="tl-date">2024 — 2026</span>
+          <h4>CPGE MPI &mdash; 2e annee</h4>
+          <p>Institut 2iE, Ouagadougou. Mathematiques, Physique et Informatique. Formation intensive developpant rigueur scientifique, capacites d'analyse et methodes formelles. Modules : algebre, analyse, probabilites, algorithmique, OCaml, bases de donnees.</p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-date">2023 — 2024</span>
+          <h4>Tutorat pair — Mathematiques &amp; Informatique</h4>
+          <p>Tutorat benevole de pairs en mathematiques et informatique pendant un an. Anime des seances regulieres pour aider les etudiants en difficulte, consolidant ainsi ma capacite pedagogique et ma maitrise des fondamentaux.</p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-date">2024</span>
+          <h4>Baccalaureat scientifique serie D</h4>
+          <p>Complexe scolaire Notre Dame de l'Esperance, Burkina Faso. Obtenu avec mention.</p>
+        </div>
+      </div>
+      <div class="certifs">
+        <h3>Certifications &amp; auto-formation</h3>
+        <div class="cert-grid">
+          <div class="cert-item"><strong>Formation Python</strong><span>SoloLearn, Mimo, YouTube — autodidacte</span></div>
+          <div class="cert-item"><strong>Leadership &amp; prise de parole</strong><span>Coursera</span></div>
+          <div class="cert-item"><strong>Developpement web fullstack</strong><span>Projets personnels — Node.js, Express, MySQL</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= CONTACT ======= -->
+<section class="slide" id="contact">
+  <div class="slide-inner">
+    <div class="slide-header reveal">
+      <span class="slide-num">06 / Contact</span>
+      <h2>Me contacter</h2>
+    </div>
+    <div class="contact-layout">
+      <div class="reveal-l">
+        <p style="margin-bottom:2rem">Disponible pour poursuivre mes etudes et participer a des projets academiques et technologiques. N'hesitez pas a me contacter pour toute opportunite ou echange.</p>
+        <div class="contact-links">
+
+          <a href="mailto:franckrayan226@gmail.com" class="c-link">
+            <div class="icon">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </div>
+            <div class="detail"><h4>Email</h4><span>franckrayan226@gmail.com</span></div>
+          </a>
+
+          <a href="tel:+22676154525" class="c-link">
+            <div class="icon">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div class="detail"><h4>Telephone</h4><span>+226 76 15 45 25</span></div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/franck-ta-7a35ba3b0" target="_blank" rel="noopener" class="c-link">
+            <div class="icon">
+              <svg viewBox="0 0 24 24"><path d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73A1.77 1.77 0 1 1 6.5 3.2a1.77 1.77 0 0 1 0 3.53zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77C14.4 7.41 20 7.22 20 12.48V19z"/></svg>
+            </div>
+            <div class="detail"><h4>LinkedIn</h4><span>franck-ta-7a35ba3b0</span></div>
+          </a>
+
+          <a href="https://github.com/franckrayan226-arch" target="_blank" rel="noopener" class="c-link">
+            <div class="icon">
+              <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.57v-2.23c-3.34.72-4.04-1.42-4.04-1.42-.54-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.82.57A12 12 0 0 0 12 .3z"/></svg>
+            </div>
+            <div class="detail"><h4>GitHub</h4><span>franckrayan226-arch</span></div>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="c-form reveal-r">
+        <form id="contactForm">
+          <div class="fg"><label for="nom">Nom</label><input type="text" id="nom" name="name" required></div>
+          <div class="fg"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+          <div class="fg"><label for="objet">Objet</label><input type="text" id="objet" name="subject" required></div>
+          <div class="fg"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <button type="submit" class="btn btn-solid">Envoyer le message</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>Franck Rayan Bado &mdash; Portfolio candidat SUPINFO &mdash; 2025</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
